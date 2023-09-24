@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/yukilun/multi-step-form](https://github.com/yukilun/multi-step-form)
+- Live Site URL: [https://yukilun.github.io/multi-step-form/](https://yukilun.github.io/multi-step-form/)
 
 ## My process
 
