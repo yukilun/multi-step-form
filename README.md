@@ -49,7 +49,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [Vue.js](https://vuejs.org/) - JS library
-- [Pinia]() - State management library for Vue.js 
+- [Pinia](https://pinia.vuejs.org/) - State management library for Vue.js 
 
 
 ### What I learned
