@@ -113,7 +113,7 @@ export const useInputStore = defineStore("input", () => {
       if (!input.phone) {
         invalidMsg.phone = "This field is required";
         isValid = false;
-      } else if (!/^\+\d\s\d{3}\s\d{3}\s\d{4}$/.test(input.phone)) {
+      } else if (!/^\+?[1][- ]?\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(input.phone)) {
         invalidMsg.phone = "Invalid phone number format";
         isValid = false;
       } else {
