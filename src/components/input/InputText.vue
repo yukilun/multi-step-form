@@ -5,7 +5,7 @@
             <span class="invalid-message">{{ inputStore.invalidMsg[field] }}</span>
         </div>
         <input :id="field" class="input-field" type="text" v-model="inputStore.input[field]" :placeholder="placeholder"
-            :class="inputStore.invalidMsg[field] && 'invalid'" />
+            :class="inputStore.invalidMsg[field] && 'invalid'" @change="() => inputStore.validate(field)"/>
     </div>
 </template>
 
