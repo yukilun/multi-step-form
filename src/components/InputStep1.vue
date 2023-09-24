@@ -4,7 +4,7 @@
         <p class="step-desc">Please provide your name, email address, and phone number.</p>
         <InputText field="name" label="Name" placeholder="e.g. Stephen King"/>
         <InputText field="email" label="Email Address" placeholder="e.g. stephenking@lorem.com"/>
-        <InputText field="phone" label="Phone Number" placeholder="e.g. +1 234 567 890"/>
+        <InputText field="phone" label="Phone Number" placeholder="e.g. +1 123 456 7890"/>
     </div>
 </template>
 
