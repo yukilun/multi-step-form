@@ -1,0 +1,84 @@
+@import './base.css';
+
+body {
+  min-height: 100vh;
+  color: var(--marine-blue);
+  background: var(--magnolia);
+  font-size: var(--small);
+  display: flex;
+  padding-bottom: 40px;
+  position: relative;
+  overflow-x: auto;
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+/* Global Form Style */
+.step-title {
+  font-size: var(--xlarge);
+  margin-bottom: 10px;
+}
+.step-desc {
+  color: var(--cool-gray);
+  font-size: var(--regular);
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.primary-text {
+  font-weight: 700;
+  font-size: var(--regular);
+  color: var(--marine-blue);  
+}
+.secondary-text {
+  font-weight: 400;
+  font-size: var(--small);
+  color: var(--cool-gray); 
+  letter-spacing: -0.03rem;
+}
+.input-field {
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  outline: none;
+  color: var(--marine-blue);
+}
+.input-field::placeholder {
+  color: var(--cool-gray);
+  font-weight: 500;
+}
+.input-field:hover, .input-field:focus {
+  border-color: var(--purplish-blue);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: var(--regular);
+  }
+  #app {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    background: var(--white);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px var(--light-gray);
+  }
+
+  /* Global Form Style - Desktop */
+  .step-title {
+    font-size: var(--xxlarge);
+  }
+  .step-desc {
+    font-size: var(--regular);
+  }
+  .primary-text {
+    font-size: var(--regular); 
+  }
+  .secondary-text {
+    font-size: var(--regular);
+    letter-spacing: 0rem;
+  }
+}
